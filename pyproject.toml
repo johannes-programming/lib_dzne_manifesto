@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lib_dzne_manifesto"
-version = "0.0.0"
+version = "0.2.0"
 description = "lib_dzne_manifesto"
 readme = "README.rst"
 authors = [
@@ -18,7 +18,9 @@ classifiers = [
     "Programming Language :: Python :: 3",
 ]
 keywords = []
-dependencies = []
+dependencies = [
+    "na_quantors>=1.0",
+]
 requires-python = ">=3.11"
 
 [project.license]
