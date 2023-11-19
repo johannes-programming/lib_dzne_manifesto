@@ -1,30 +1,21 @@
 [build-system]
-requires = [
-    "setuptools>=61.0.0",
-]
+requires = ["setuptools>=61.0.0"]
 build-backend = "setuptools.build_meta"
 
+
 [project]
-name = "lib_dzne_manifesto"
-version = "0.0.0"
-description = "lib_dzne_manifesto"
-readme = "README.rst"
-authors = [
-    { name = "Johannes", email = "johannes-programming@posteo.org" },
-]
+name = "lib-dzne-manifesto" # The package-name for "pip install package-name"
+version = "0.1.0"
+description = "Libary for the manifesto. "
+license = { file = "LICENSE" }
+authors = [{ name = "Johannes Horler", email = "johannes.horler@dzne.de" }]
 classifiers = [
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
 ]
 keywords = []
-dependencies = []
+dependencies = [
+]
 requires-python = ">=3.11"
-
-[project.license]
-file = "LICENSE.txt"
-
-[project.urls]
-Download = "https://pypi.org/project/lib-dzne-manifesto/#files"
-Source = "https://github.com/johannes-programming/lib_dzne_manifesto"
 
